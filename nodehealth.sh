@@ -6,14 +6,10 @@
 # Date: 13-05-2026
 # Version: v1
 ############
-echo "print the disk usage"
+set -x #debug
 
-df
-
-echo "print the memory details"
+df -h
 
 free -g
-
-echo "print the no of cpus"
 
 nproc
